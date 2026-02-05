@@ -38,8 +38,6 @@ public class EstudianteQrFragment extends Fragment {
 
     private void generarQRReal() {
         try {
-            // El QR ahora contiene el ID real del usuario de la DB
-            // En una versión más avanzada, aquí podrías obtener el id del Estudiante específico
             String idParaQR = String.valueOf(session.getUserId());
 
             BarcodeEncoder barcodeEncoder = new BarcodeEncoder();

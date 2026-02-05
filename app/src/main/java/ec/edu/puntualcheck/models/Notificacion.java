@@ -13,7 +13,7 @@ public class Notificacion {
     // --- CONSTRUCTOR VACÍO ---
     public Notificacion() {}
 
-    // --- SETTERS (Necesarios para enviar datos) ---
+    // --- SETTERS ---
     public void setEstudianteId(int estudianteId) { this.estudianteId = estudianteId; }
     public void setRepresentanteId(int representanteId) { this.representanteId = representanteId; }
     public void setFechaEvento(String fechaEvento) { this.fechaEvento = fechaEvento; }
@@ -21,7 +21,7 @@ public class Notificacion {
     public void setCanal(String canal) { this.canal = canal; }
     public void setDetalle(String detalle) { this.detalle = detalle; }
 
-    // --- GETTERS (Necesarios para leer datos) ---
+    // --- GETTERS ---
     public int getId() { return id; }
     public String getTipo() { return tipo; }
     public String getDetalle() { return detalle; }

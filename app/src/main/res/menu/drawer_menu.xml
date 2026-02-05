@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"> <!-- ESTA LÍNEA FALTABA -->
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- GRUPO ESTUDIANTE -->
     <group android:id="@+id/group_estudiante" android:visible="false">

@@ -9,7 +9,7 @@ public class Estudiante {
     // Constructor vacío (necesario para crear el objeto manualmente)
     public Estudiante() {}
 
-    // --- SETTERS (Esto es lo que te faltaba para quitar el error rojo) ---
+    // --- SETTERS  ---
     public void setId(int id) {
         this.id = id;
     }

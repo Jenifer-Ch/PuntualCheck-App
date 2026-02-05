@@ -32,7 +32,6 @@ public interface ApiService {
     @POST("api/asistencias")
     Call<ResponseBody> registrarAsistencia(@Body Asistencia asistencia);
 
-    // Para el Docente (Ver todo o filtrar por fecha global)
     @GET("api/asistencias")
     Call<List<Asistencia>> getAsistenciasDocente(
             @Query("fechaDesde") String d,
@@ -47,7 +46,7 @@ public interface ApiService {
             @Query("fechaHasta") String h
     );
 
-    // Método simple por si solo necesitas el ID
+    // Metodo simple por si solo necesitas el ID
     @GET("api/asistencias")
     Call<List<Asistencia>> getAsistenciasPorEstudiante(@Query("estudianteId") int estudianteId);
 

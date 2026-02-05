@@ -41,7 +41,7 @@
             android:name=".activities.DocenteScannerActivity"
             android:exported="false" />
 
-        <!-- 4. EL SERVICIO DE NOTIFICACIONES (Ahora dentro de application) -->
+        <!-- 4. EL SERVICIO DE NOTIFICACIONES -->
         <service
             android:name=".services.FCMService"
             android:exported="false">

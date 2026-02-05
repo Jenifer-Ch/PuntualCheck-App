@@ -21,7 +21,7 @@ import ec.edu.puntualcheck.api.RetrofitClient;
 import ec.edu.puntualcheck.models.Asistencia;
 import ec.edu.puntualcheck.models.Estudiante;
 import ec.edu.puntualcheck.models.Notificacion;
-import ec.edu.puntualcheck.models.EstudianteRepresentante; // <--- ESTE ES EL IMPORT QUE FALTABA
+import ec.edu.puntualcheck.models.EstudianteRepresentante;
 import ec.edu.puntualcheck.services.FCMService;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -126,7 +126,7 @@ public class DocenteScannerActivity extends AppCompatActivity {
                         imgEstado.setImageResource(android.R.drawable.checkbox_on_background);
                         imgEstado.setColorFilter(getResources().getColor(android.R.color.holo_green_dark));
 
-                        // BUSCAMOS AL REPRESENTANTE PARA CREAR LA NOTIFICACIÓN
+                        // BUSCA AL REPRESENTANTE PARA CREAR LA NOTIFICACIÓN
                         enviarNotificacionAPI(idEst, nombreEst, fechaStr, horaStr);
                     }
 

@@ -19,7 +19,7 @@ import ec.edu.puntualcheck.activities.EstudianteQrFragment;
 import ec.edu.puntualcheck.activities.HistorialAsistenciaFragment;
 import ec.edu.puntualcheck.activities.LoginActivity;
 import ec.edu.puntualcheck.activities.RepresentanteFragment;
-import ec.edu.puntualcheck.activities.NotificacionesFragment; // <--- ESTE ES EL IMPORT QUE FALTABA
+import ec.edu.puntualcheck.activities.NotificacionesFragment;
 import ec.edu.puntualcheck.utils.SessionManager;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -148,7 +148,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 .replace(R.id.fragment_container, fragmento)
                 .commit();
 
-        // Opcional: Cambiar el título de la Toolbar según el fragmento
         if (getSupportActionBar() != null) {
             if (fragmento instanceof EstudianteQrFragment) getSupportActionBar().setTitle("Mi Código QR");
             else if (fragmento instanceof RepresentanteFragment) getSupportActionBar().setTitle("Mi Representado");

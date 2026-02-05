@@ -110,7 +110,7 @@ public class RepresentanteFragment extends Fragment {
                     adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                     spinnerHijos.setAdapter(adapter);
 
-                    // LOGICA DEL SELECTOR (Cuando cambias de hijo)
+                    // LOGICA DEL SELECTOR
                     spinnerHijos.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                         @Override
                         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

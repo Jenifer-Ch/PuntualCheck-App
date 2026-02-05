@@ -4,7 +4,7 @@ public class Asistencia {
     private int id;
     private int estudianteId;
     private String fecha;
-    private String hora; // <--- Este campo es el que faltaba
+    private String hora;
     private String estado;
     private String origen;
     private String observacion;
@@ -22,7 +22,7 @@ public class Asistencia {
         this.observacion = observacion;
     }
 
-    // --- GETTERS (Muy importantes para el Adaptador) ---
+    // --- GETTERS ---
 
     public int getId() { return id; }
 
@@ -30,7 +30,7 @@ public class Asistencia {
 
     public String getFecha() { return fecha; }
 
-    public String getHora() { return hora; } // <--- ESTA ES LA FUNCIÓN QUE BUSCABA EL ADAPTADOR
+    public String getHora() { return hora; }
 
     public String getEstado() { return estado; }
 

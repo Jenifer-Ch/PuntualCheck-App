@@ -116,7 +116,6 @@ public class LoginActivity extends AppCompatActivity {
                 if (response.isSuccessful() && response.body() != null) {
                     for (Representante r : response.body()) {
                         if (r.getUsuarioId() == u.getId()) {
-                            // GUARDAMOS EL ID DE REPRESENTANTE (ID: 2 en tu caso de María)
                             session.saveSession(r.getId(), u.getRol(), u.getNombre());
                             irAlMain();
                             return;

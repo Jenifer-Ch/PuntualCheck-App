@@ -4,7 +4,7 @@ public class Usuario {
     private int id;
     private String nombre;
     private String correo;
-    private String passwordHash; // Debe llamarse igual que en el JSON de la API
+    private String passwordHash;
     private String rol;
 
     // Getters

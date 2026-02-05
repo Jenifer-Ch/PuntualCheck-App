@@ -26,7 +26,7 @@ public class FCMService extends FirebaseMessagingService {
         }
     }
 
-    // METODO PARA LANZAR NOTIFICACIONES (Sirve para Firebase y para tus pruebas manuales)
+    // METODO PARA LANZAR NOTIFICACIONES
     public static void mostrarNotificacion(Context context, String titulo, String mensaje) {
         String channelId = "puntual_check_channel";
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
@@ -41,7 +41,7 @@ public class FCMService extends FirebaseMessagingService {
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, channelId)
-                .setSmallIcon(R.drawable.logo_institucion) // Usa tu logo como icono
+                .setSmallIcon(R.drawable.logo_institucion)
                 .setContentTitle(titulo)
                 .setContentText(mensaje)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)

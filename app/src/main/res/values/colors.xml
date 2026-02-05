@@ -6,7 +6,7 @@
     <color name="modern_orange">#FF9F1C</color>
     <color name="modern_bg">#F8F9FA</color>
 
-    <!-- Compatibilidad (Nombres que tus XML viejos buscan) -->
+    <!-- Compatibilidad -->
     <color name="principal_navy">#001D3D</color>
     <color name="acento_orange">#FF9F1C</color>
     <color name="gris_fondo">#F8F9FA</color>

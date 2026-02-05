@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import java.util.Collections; // Para ordenar
+import java.util.Collections;
 import java.util.List;
 import ec.edu.puntualcheck.R;
 import ec.edu.puntualcheck.adapters.NotificacionAdapter;
