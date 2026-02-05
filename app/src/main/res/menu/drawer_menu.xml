@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> <!-- ESTA LÍNEA FALTABA -->
+
+    <!-- GRUPO ESTUDIANTE -->
+    <group android:id="@+id/group_estudiante" android:visible="false">
+        <item
+            android:id="@+id/nav_qr"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Mi Código QR" />
+        <item
+            android:id="@+id/nav_mis_asistencias"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Mi Asistencia" />
+    </group>
+
+    <!-- GRUPO DOCENTE -->
+    <group android:id="@+id/group_docente" android:visible="false">
+        <item
+            android:id="@+id/nav_escanear"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Escanear Estudiante" />
+        <item
+            android:id="@+id/nav_historial_lecturas"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Historial de Lecturas" />
+    </group>
+
+    <!-- GRUPO REPRESENTANTE -->
+    <group android:id="@+id/group_representante" android:visible="false">
+        <item
+            android:id="@+id/nav_asistencia_hijo"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Mi Representado" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Buzón de Notificaciones" />
+    </group>
+
+    <!-- OPCIÓN GENERAL -->
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Cerrar Sesión" />
+
+</menu>

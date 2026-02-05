@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Moderna Principal -->
+    <color name="modern_blue_dark">#001D3D</color>
+    <color name="modern_blue_primary">#003566</color>
+    <color name="modern_orange">#FF9F1C</color>
+    <color name="modern_bg">#F8F9FA</color>
+
+    <!-- Compatibilidad (Nombres que tus XML viejos buscan) -->
+    <color name="principal_navy">#001D3D</color>
+    <color name="acento_orange">#FF9F1C</color>
+    <color name="gris_fondo">#F8F9FA</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="texto_secundario">#6C757D</color>
+</resources>
